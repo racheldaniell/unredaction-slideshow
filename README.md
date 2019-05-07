@@ -7,7 +7,7 @@ In the original project, the slideshow is taken from a U.S. government document 
 
 A Fritzing diagram is included to show the materials and setup required, which inncludes a Raspberry Pi 3 B+, MicroBit, and two PIR motion sensors.
 
-Code is in Python 3. 
+Code is in Python 3, primarily run on the Raspberry Pi, with a small code piece run on the MicroBit to have it display scrolled text information about the redacted document.
 
 You will also need a series of images to transition. The examples used in the original project are included in this repository. The code is designed to take 2 images and make 3 transitions between them using alpha channel blending, but it can be adjusted for any number of images and any number of blend transitions (just set the alpha value to a different number between 0 and 1 for each transition).
 
