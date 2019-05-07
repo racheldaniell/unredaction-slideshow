@@ -13,7 +13,7 @@ You will also need a series of images to transition. The examples used in the or
 
 Recommended naming conventions: It is handy to give your image files a prefix such as "a_", "b_" or "1_", "2_" so that you can control their order. It is also useful to number your transitions (in this example, a numeric suffix on the temporary blended image name has been used).
 
-To set up the project, first get your physical supplies, go through the steps of basic setup of your Raspberry Pi (instructions for this can be found in the Raspberry Pi forums) and set up your equipment according to the fritzing diagram provided. Then upload your image set to the Pi in the designated folder.
+To set up the project, first get your physical supplies, go through the steps of basic setup of your Raspberry Pi (instructions for this can be found in the Raspberry Pi forums) and set up your equipment according to the fritzing diagram provided. Then upload your image set to the Pi in the designated folder as indicated in the code (or change the code to the directory you would like to use for images). 
 
 Note that the PIL/pillow library has other options for image manipulation that could also be experimented with.
 
