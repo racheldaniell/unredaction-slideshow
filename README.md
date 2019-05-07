@@ -1,4 +1,5 @@
 # unredaction-slideshow
+# UNREDACTION: Behind the Black Box
 
 This project facilitates the creation of a slideshow of images that will transition when a motion sensor is triggered. 
 
