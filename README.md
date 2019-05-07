@@ -17,6 +17,15 @@ To set up the project, first get your physical supplies, go through the steps of
 
 Note that the PIL/pillow library has other options for image manipulation that could also be experimented with.
 
+# Installation
+In addition to the files in the current repository, you will utilize the following Python libraries and other tools:
+  * Pillow:  https://pillow.readthedocs.io/en/stable/installation.html
+  * os:  https://docs.python.org/3/library/os.html
+  * sys: https://docs.python.org/3/library/sys.html
+  * ImageMagick: https://imagemagick.org/script/download.php
+    (or other image viewer capable of being triggered to open images by Python code)
+  
+
 # Credits and acknowledgements:
 This project was created for the <b>INFO 697 Physical Computing and Prototyping course at Pratt Institute</b> in Spring 2019. Grateful acknowledgement goes out to the professors, Monica Maceli and Basem Ali were an enormous help in their feedback on and support for this project.
 
