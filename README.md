@@ -18,12 +18,14 @@ To set up the project, first get your physical supplies, go through the steps of
 Note that the PIL/pillow library has other options for image manipulation that could also be experimented with.
 
 # Installation
-In addition to the files in the current repository, you will utilize the following Python libraries and other tools:
+In addition to the files in the current repository, you will utilize the following Python libraries, modules and tools; many of these are built in to the Python3 releases:
   * Pillow:  https://pillow.readthedocs.io/en/stable/installation.html
   * os:  https://docs.python.org/3/library/os.html
   * sys: https://docs.python.org/3/library/sys.html
+  * time: https://docs.python.org/3/library/time.html#module-time
+  * GPIO: https://sourceforge.net/p/raspberry-gpio-python/wiki/BasicUsage/
   * ImageMagick: https://imagemagick.org/script/download.php
-    (or other image viewer capable of being triggered to open images by Python code)
+       (or other image viewer capable of being triggered to open images by Python code)
   
 
 # Credits and acknowledgements:
