@@ -16,6 +16,8 @@ Recommended naming conventions: It is handy to give your image files a prefix su
 
 To set up the project, first get your physical supplies, go through the steps of basic setup of your Raspberry Pi (instructions for this can be found in the Raspberry Pi forums) and set up your equipment according to the fritzing diagram provided. Then upload your image set to the Pi in the designated folder as indicated in the code (or change the code to the directory you would like to use for images). Then adjust any settings in the Python code files relevant to your project and run them through.
 
+Also see the comments within the code files for more detail on setting up the project.
+
 Note that the PIL/pillow library also has other options for image manipulation that could be experimented with if you are looking for other types of transition effects.
 
 # Installation
