@@ -3,14 +3,14 @@
 
 The basic function of this project is to facilitate the creation of a slideshow of images that will transition when a motion sensor is triggered. 
 
-In the original project, the slideshow is taken from a U.S. government document related to the use of torture by the CIA that has been released in differently redacted versions, so that the slideshow appears to make the redaction disappear through user action, highlighting what we have learned about the CIA's use of abusive techniques over time through pushing for access to government information.
+In the original project, the slideshow is taken from a U.S. government document related to the use of torture by the CIA that has been released in differently redacted versions, so that the slideshow appears to make the redaction disappear through user swiping action, a symbolic interactive process to highlight what we have learned about the CIA's use of abusive techniques over time through the action of pushing for access to government information.
 The same code could be used to transition between two images on other themes based on user motion interaction as well.
 
 A Fritzing diagram is included to show the materials and setup required, which includes a Raspberry Pi 3 B+, MicroBit, and two PIR motion sensors.
 
 Code is in Python 3, primarily run on the Raspberry Pi, with a small code piece run on the MicroBit to have it display a scrolled text credit about the redacted document. 
 
-You will also need two image files to transition. The examples used in the original project are included in this repository -- two JPEGs, one is a heavily redacted document page and the other a less-redacted document page. The code is designed to take 2 images and make 3 transitions between them using alpha channel blending, but it can be adjusted for any number of images and any number of blend transitions (just set the alpha value to a different number between 0 and 1 for each transition).
+You will also need two image files to transition. The examples used in the original project are included in this repository -- two JPEGs, one is a heavily redacted document page and the other a less-redacted document page (see end of this README for more information on the document context). The code is designed to take 2 images and make 3 transitions between them using alpha channel blending, but it can be adjusted for any number of images and any number of blend transitions (just set the alpha value to a different number between 0 and 1 for each transition).
 
 Recommended naming conventions: It is handy to give your image files a prefix such as "a_", "b_" or "1_", "2_" so that you can control their order. It is also useful to number your transitions (in this example, a numeric suffix on the temporary blended image name has been used).
 
